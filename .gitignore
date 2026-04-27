@@ -3,17 +3,29 @@ venv/
 chemvenv/
 __pycache__/
 *.pyc
+.pytest_cache/
 
-# Data files (too large for Git)
+# Data (too big and not source code)
 data/*.rdata
 data/*.RData
-data/*.csv
+
+# Environment files (may contain secrets)
+.env
+
+# Faust state
+processor/tables/
+processor/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
-
-# OS files
-.DS_Store
 
 # ML artifacts
 *.pkl
