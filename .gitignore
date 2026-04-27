@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+chemvenv/
+__pycache__/
+*.pyc
+
+# Data files (too large for Git)
+data/*.rdata
+data/*.RData
+data/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# ML artifacts
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
