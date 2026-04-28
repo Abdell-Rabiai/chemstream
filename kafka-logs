@@ -1,0 +1,498 @@
+chemstream-kafka  | ===> User
+chemstream-kafka  | uid=1000(appuser) gid=1000(appuser) groups=1000(appuser)
+chemstream-kafka  | ===> Configuring ...
+chemstream-kafka  | Running in Zookeeper mode...
+chemstream-kafka  | ===> Running preflight checks ... 
+chemstream-kafka  | ===> Check if /var/lib/kafka/data is writable ...
+chemstream-kafka  | ===> Check if Zookeeper is healthy ...
+chemstream-kafka  | [2026-04-27 17:21:39,863] INFO Client environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:host.name=23867512d07e (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.version=11.0.20 (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.vendor=Azul Systems, Inc. (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.home=/usr/lib/jvm/java-11-zulu-openjdk-ca (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.class.path=/usr/share/java/cp-base-new/jackson-databind-2.14.2.jar:/usr/share/java/cp-base-new/snakeyaml-2.0.jar:/usr/share/java/cp-base-new/disk-usage-agent-7.5.0.jar:/usr/share/java/cp-base-new/scala-java8-compat_2.13-1.0.2.jar:/usr/share/java/cp-base-new/json-simple-1.1.1.jar:/usr/share/java/cp-base-new/scala-collection-compat_2.13-2.10.0.jar:/usr/share/java/cp-base-new/scala-logging_2.13-3.9.4.jar:/usr/share/java/cp-base-new/lz4-java-1.8.0.jar:/usr/share/java/cp-base-new/zookeeper-3.6.3.jar:/usr/share/java/cp-base-new/commons-cli-1.4.jar:/usr/share/java/cp-base-new/slf4j-api-1.7.36.jar:/usr/share/java/cp-base-new/common-utils-7.5.0.jar:/usr/share/java/cp-base-new/minimal-json-0.9.5.jar:/usr/share/java/cp-base-new/kafka-storage-7.5.0-ccs.jar:/usr/share/java/cp-base-new/scala-reflect-2.13.10.jar:/usr/share/java/cp-base-new/logredactor-1.0.12.jar:/usr/share/java/cp-base-new/kafka-metadata-7.5.0-ccs.jar:/usr/share/java/cp-base-new/zstd-jni-1.5.5-1.jar:/usr/share/java/cp-base-new/utility-belt-7.5.0.jar:/usr/share/java/cp-base-new/zookeeper-jute-3.6.3.jar:/usr/share/java/cp-base-new/metrics-core-4.1.12.1.jar:/usr/share/java/cp-base-new/kafka-raft-7.5.0-ccs.jar:/usr/share/java/cp-base-new/jackson-datatype-jdk8-2.14.2.jar:/usr/share/java/cp-base-new/jolokia-jvm-1.7.1.jar:/usr/share/java/cp-base-new/jopt-simple-5.0.4.jar:/usr/share/java/cp-base-new/jose4j-0.9.3.jar:/usr/share/java/cp-base-new/argparse4j-0.7.0.jar:/usr/share/java/cp-base-new/jackson-core-2.14.2.jar:/usr/share/java/cp-base-new/jackson-dataformat-yaml-2.14.2.jar:/usr/share/java/cp-base-new/jackson-module-scala_2.13-2.14.2.jar:/usr/share/java/cp-base-new/kafka-server-common-7.5.0-ccs.jar:/usr/share/java/cp-base-new/jackson-dataformat-csv-2.14.2.jar:/usr/share/java/cp-base-new/kafka-clients-7.5.0-ccs.jar:/usr/share/java/cp-base-new/jmx_prometheus_javaagent-0.18.0.jar:/usr/share/java/cp-base-new/paranamer-2.8.jar:/usr/share/java/cp-base-new/kafka-storage-api-7.5.0-ccs.jar:/usr/share/java/cp-base-new/metrics-core-2.2.0.jar:/usr/share/java/cp-base-new/gson-2.9.0.jar:/usr/share/java/cp-base-new/snappy-java-1.1.10.1.jar:/usr/share/java/cp-base-new/re2j-1.6.jar:/usr/share/java/cp-base-new/kafka-group-coordinator-7.5.0-ccs.jar:/usr/share/java/cp-base-new/reload4j-1.2.19.jar:/usr/share/java/cp-base-new/scala-library-2.13.10.jar:/usr/share/java/cp-base-new/slf4j-reload4j-1.7.36.jar:/usr/share/java/cp-base-new/kafka-tools-api-7.5.0-ccs.jar:/usr/share/java/cp-base-new/kafka_2.13-7.5.0-ccs.jar:/usr/share/java/cp-base-new/jolokia-core-1.7.1.jar:/usr/share/java/cp-base-new/jackson-annotations-2.14.2.jar:/usr/share/java/cp-base-new/audience-annotations-0.5.0.jar:/usr/share/java/cp-base-new/logredactor-metrics-1.0.12.jar (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:os.version=6.8.0-110-generic (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:user.name=appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:user.home=/home/appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,864] INFO Client environment:user.dir=/home/appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,865] INFO Client environment:os.memory.free=116MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,865] INFO Client environment:os.memory.max=1986MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,865] INFO Client environment:os.memory.total=126MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,872] INFO Initiating client connection, connectString=zookeeper:2181 sessionTimeout=40000 watcher=io.confluent.admin.utils.ZookeeperConnectionWatcher@221af3c0 (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:39,881] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+chemstream-kafka  | [2026-04-27 17:21:39,895] INFO jute.maxbuffer value is 1048575 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+chemstream-kafka  | [2026-04-27 17:21:39,907] INFO zookeeper.request.timeout value is 0. feature enabled=false (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:39,947] INFO Opening socket connection to server zookeeper/172.19.0.2:2181. (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:39,948] INFO SASL config status: Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:39,965] INFO Socket connection established, initiating session, client: /172.19.0.3:40218, server: zookeeper/172.19.0.2:2181 (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:40,041] INFO Session establishment complete on server zookeeper/172.19.0.2:2181, session id = 0x100000610e10000, negotiated timeout = 40000 (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:40,166] INFO Session: 0x100000610e10000 closed (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:40,166] INFO EventThread shut down for session: 0x100000610e10000 (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | Using log4j config /etc/kafka/log4j.properties
+chemstream-kafka  | ===> Launching ... 
+chemstream-kafka  | ===> Launching kafka ... 
+chemstream-kafka  | [2026-04-27 17:21:41,469] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+chemstream-kafka  | [2026-04-27 17:21:42,011] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+chemstream-kafka  | [2026-04-27 17:21:42,172] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+chemstream-kafka  | [2026-04-27 17:21:42,176] INFO starting (kafka.server.KafkaServer)
+chemstream-kafka  | [2026-04-27 17:21:42,176] INFO Connecting to zookeeper on zookeeper:2181 (kafka.server.KafkaServer)
+chemstream-kafka  | [2026-04-27 17:21:42,204] INFO [ZooKeeperClient Kafka server] Initializing a new session to zookeeper:2181. (kafka.zookeeper.ZooKeeperClient)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:zookeeper.version=3.6.4--d65253dcf68e9097c6e95a126463fd5fdeb4521c, built on 12/18/2022 18:10 GMT (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:host.name=23867512d07e (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.version=11.0.20 (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.vendor=Azul Systems, Inc. (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.home=/usr/lib/jvm/java-11-zulu-openjdk-ca (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.class.path=/usr/bin/../share/java/kafka/jakarta.annotation-api-1.3.5.jar:/usr/bin/../share/java/kafka/swagger-annotations-2.2.8.jar:/usr/bin/../share/java/kafka/netty-common-4.1.96.Final.jar:/usr/bin/../share/java/kafka/javassist-3.29.2-GA.jar:/usr/bin/../share/java/kafka/jackson-module-jaxb-annotations-2.13.5.jar:/usr/bin/../share/java/kafka/commons-lang3-3.8.1.jar:/usr/bin/../share/java/kafka/maven-artifact-3.8.4.jar:/usr/bin/../share/java/kafka/scala-java8-compat_2.13-1.0.2.jar:/usr/bin/../share/java/kafka/connect-transforms-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/scala-collection-compat_2.13-2.10.0.jar:/usr/bin/../share/java/kafka/javax.activation-api-1.2.0.jar:/usr/bin/../share/java/kafka/kafka-tools-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jackson-databind-2.13.5.jar:/usr/bin/../share/java/kafka/aopalliance-repackaged-2.6.1.jar:/usr/bin/../share/java/kafka/jersey-hk2-2.39.1.jar:/usr/bin/../share/java/kafka/scala-logging_2.13-3.9.4.jar:/usr/bin/../share/java/kafka/netty-transport-native-epoll-4.1.96.Final.jar:/usr/bin/../share/java/kafka/hk2-locator-2.6.1.jar:/usr/bin/../share/java/kafka/jersey-server-2.39.1.jar:/usr/bin/../share/java/kafka/jersey-common-2.39.1.jar:/usr/bin/../share/java/kafka/jaxb-api-2.3.1.jar:/usr/bin/../share/java/kafka/jakarta.validation-api-2.0.2.jar:/usr/bin/../share/java/kafka/jetty-servlets-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/lz4-java-1.8.0.jar:/usr/bin/../share/java/kafka/kafka-streams-examples-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jetty-util-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/jackson-module-scala_2.13-2.13.5.jar:/usr/bin/../share/java/kafka/commons-cli-1.4.jar:/usr/bin/../share/java/kafka/slf4j-api-1.7.36.jar:/usr/bin/../share/java/kafka/snappy-java-1.1.10.0.jar:/usr/bin/../share/java/kafka/osgi-resource-locator-1.0.3.jar:/usr/bin/../share/java/kafka/netty-transport-native-unix-common-4.1.96.Final.jar:/usr/bin/../share/java/kafka/kafka-storage-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jackson-datatype-jdk8-2.13.5.jar:/usr/bin/../share/java/kafka/scala-reflect-2.13.10.jar:/usr/bin/../share/java/kafka/netty-transport-classes-epoll-4.1.96.Final.jar:/usr/bin/../share/java/kafka/kafka-metadata-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/zstd-jni-1.5.5-1.jar:/usr/bin/../share/java/kafka/trogdor-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/activation-1.1.1.jar:/usr/bin/../share/java/kafka/jetty-client-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/metrics-core-4.1.12.1.jar:/usr/bin/../share/java/kafka/jetty-server-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/kafka-raft-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jakarta.xml.bind-api-2.3.3.jar:/usr/bin/../share/java/kafka/netty-resolver-4.1.96.Final.jar:/usr/bin/../share/java/kafka/jopt-simple-5.0.4.jar:/usr/bin/../share/java/kafka/jose4j-0.9.3.jar:/usr/bin/../share/java/kafka/argparse4j-0.7.0.jar:/usr/bin/../share/java/kafka/zookeeper-jute-3.6.4.jar:/usr/bin/../share/java/kafka/audience-annotations-0.13.0.jar:/usr/bin/../share/java/kafka/javax.annotation-api-1.3.2.jar:/usr/bin/../share/java/kafka/kafka-server-common-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/rocksdbjni-7.1.2.jar:/usr/bin/../share/java/kafka/connect-basic-auth-extension-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/kafka-clients-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/kafka-log4j-appender-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jackson-jaxrs-base-2.13.5.jar:/usr/bin/../share/java/kafka/paranamer-2.8.jar:/usr/bin/../share/java/kafka/jersey-container-servlet-2.39.1.jar:/usr/bin/../share/java/kafka/kafka-storage-api-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jackson-dataformat-csv-2.13.5.jar:/usr/bin/../share/java/kafka/netty-buffer-4.1.96.Final.jar:/usr/bin/../share/java/kafka/metrics-core-2.2.0.jar:/usr/bin/../share/java/kafka/jline-3.22.0.jar:/usr/bin/../share/java/kafka/netty-codec-4.1.96.Final.jar:/usr/bin/../share/java/kafka/jetty-servlet-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/jetty-http-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/javax.ws.rs-api-2.1.1.jar:/usr/bin/../share/java/kafka/netty-handler-4.1.96.Final.jar:/usr/bin/../share/java/kafka/connect-runtime-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/reflections-0.9.12.jar:/usr/bin/../share/java/kafka/jersey-container-servlet-core-2.39.1.jar:/usr/bin/../share/java/kafka/hk2-utils-2.6.1.jar:/usr/bin/../share/java/kafka/connect-api-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/hk2-api-2.6.1.jar:/usr/bin/../share/java/kafka/kafka-group-coordinator-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jetty-security-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/connect-json-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jersey-client-2.39.1.jar:/usr/bin/../share/java/kafka/javax.servlet-api-3.1.0.jar:/usr/bin/../share/java/kafka/scala-library-2.13.10.jar:/usr/bin/../share/java/kafka/jackson-annotations-2.13.5.jar:/usr/bin/../share/java/kafka/kafka-streams-test-utils-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/netty-transport-4.1.96.Final.jar:/usr/bin/../share/java/kafka/jetty-util-ajax-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/kafka-shell-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/zookeeper-3.6.4.jar:/usr/bin/../share/java/kafka/jakarta.activation-api-1.2.2.jar:/usr/bin/../share/java/kafka/jetty-continuation-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/jackson-jaxrs-json-provider-2.13.5.jar:/usr/bin/../share/java/kafka/plexus-utils-3.3.0.jar:/usr/bin/../share/java/kafka/jakarta.inject-2.6.1.jar:/usr/bin/../share/java/kafka/slf4j-reload4j-1.7.36.jar:/usr/bin/../share/java/kafka/connect-mirror-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jackson-core-2.13.5.jar:/usr/bin/../share/java/kafka/reload4j-1.2.25.jar:/usr/bin/../share/java/kafka/kafka-streams-scala_2.13-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/kafka.jar:/usr/bin/../share/java/kafka/jetty-io-9.4.51.v20230217.jar:/usr/bin/../share/java/kafka/kafka-tools-api-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/jakarta.ws.rs-api-2.1.6.jar:/usr/bin/../share/java/kafka/kafka_2.13-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/kafka-streams-7.5.0-ccs.jar:/usr/bin/../share/java/kafka/connect-mirror-client-7.5.0-ccs.jar:/usr/bin/../share/java/confluent-telemetry/* (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,214] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:os.version=6.8.0-110-generic (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:user.name=appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:user.home=/home/appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:user.dir=/home/appuser (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:os.memory.free=1008MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,215] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,216] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,222] INFO Initiating client connection, connectString=zookeeper:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@5023bb8b (org.apache.zookeeper.ZooKeeper)
+chemstream-kafka  | [2026-04-27 17:21:42,231] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+chemstream-kafka  | [2026-04-27 17:21:42,242] INFO zookeeper.request.timeout value is 0. feature enabled=false (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:42,246] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+chemstream-kafka  | [2026-04-27 17:21:42,253] INFO Opening socket connection to server zookeeper/172.19.0.2:2181. (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:42,264] INFO Socket connection established, initiating session, client: /172.19.0.3:40228, server: zookeeper/172.19.0.2:2181 (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:42,283] INFO Session establishment complete on server zookeeper/172.19.0.2:2181, session id = 0x100000610e10001, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+chemstream-kafka  | [2026-04-27 17:21:42,289] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+chemstream-kafka  | [2026-04-27 17:21:42,788] INFO Cluster ID = LVFocoFUTzuB4JX4VNGOOA (kafka.server.KafkaServer)
+chemstream-kafka  | [2026-04-27 17:21:42,793] WARN No meta.properties file under dir /var/lib/kafka/data/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+chemstream-kafka  | [2026-04-27 17:21:42,885] INFO KafkaConfig values: 
+chemstream-kafka  | 	advertised.listeners = INTERNAL://kafka:29092,EXTERNAL://localhost:9092
+chemstream-kafka  | 	alter.config.policy.class.name = null
+chemstream-kafka  | 	alter.log.dirs.replication.quota.window.num = 11
+chemstream-kafka  | 	alter.log.dirs.replication.quota.window.size.seconds = 1
+chemstream-kafka  | 	authorizer.class.name = 
+chemstream-kafka  | 	auto.create.topics.enable = false
+chemstream-kafka  | 	auto.include.jmx.reporter = true
+chemstream-kafka  | 	auto.leader.rebalance.enable = true
+chemstream-kafka  | 	background.threads = 10
+chemstream-kafka  | 	broker.heartbeat.interval.ms = 2000
+chemstream-kafka  | 	broker.id = 1
+chemstream-kafka  | 	broker.id.generation.enable = true
+chemstream-kafka  | 	broker.rack = null
+chemstream-kafka  | 	broker.session.timeout.ms = 9000
+chemstream-kafka  | 	client.quota.callback.class = null
+chemstream-kafka  | 	compression.type = producer
+chemstream-kafka  | 	connection.failed.authentication.delay.ms = 100
+chemstream-kafka  | 	connections.max.idle.ms = 600000
+chemstream-kafka  | 	connections.max.reauth.ms = 0
+chemstream-kafka  | 	control.plane.listener.name = null
+chemstream-kafka  | 	controlled.shutdown.enable = true
+chemstream-kafka  | 	controlled.shutdown.max.retries = 3
+chemstream-kafka  | 	controlled.shutdown.retry.backoff.ms = 5000
+chemstream-kafka  | 	controller.listener.names = null
+chemstream-kafka  | 	controller.quorum.append.linger.ms = 25
+chemstream-kafka  | 	controller.quorum.election.backoff.max.ms = 1000
+chemstream-kafka  | 	controller.quorum.election.timeout.ms = 1000
+chemstream-kafka  | 	controller.quorum.fetch.timeout.ms = 2000
+chemstream-kafka  | 	controller.quorum.request.timeout.ms = 2000
+chemstream-kafka  | 	controller.quorum.retry.backoff.ms = 20
+chemstream-kafka  | 	controller.quorum.voters = []
+chemstream-kafka  | 	controller.quota.window.num = 11
+chemstream-kafka  | 	controller.quota.window.size.seconds = 1
+chemstream-kafka  | 	controller.socket.timeout.ms = 30000
+chemstream-kafka  | 	create.topic.policy.class.name = null
+chemstream-kafka  | 	default.replication.factor = 1
+chemstream-kafka  | 	delegation.token.expiry.check.interval.ms = 3600000
+chemstream-kafka  | 	delegation.token.expiry.time.ms = 86400000
+chemstream-kafka  | 	delegation.token.master.key = null
+chemstream-kafka  | 	delegation.token.max.lifetime.ms = 604800000
+chemstream-kafka  | 	delegation.token.secret.key = null
+chemstream-kafka  | 	delete.records.purgatory.purge.interval.requests = 1
+chemstream-kafka  | 	delete.topic.enable = true
+chemstream-kafka  | 	early.start.listeners = null
+chemstream-kafka  | 	fetch.max.bytes = 57671680
+chemstream-kafka  | 	fetch.purgatory.purge.interval.requests = 1000
+chemstream-kafka  | 	group.consumer.assignors = []
+chemstream-kafka  | 	group.consumer.heartbeat.interval.ms = 5000
+chemstream-kafka  | 	group.consumer.max.heartbeat.interval.ms = 15000
+chemstream-kafka  | 	group.consumer.max.session.timeout.ms = 60000
+chemstream-kafka  | 	group.consumer.max.size = 2147483647
+chemstream-kafka  | 	group.consumer.min.heartbeat.interval.ms = 5000
+chemstream-kafka  | 	group.consumer.min.session.timeout.ms = 45000
+chemstream-kafka  | 	group.consumer.session.timeout.ms = 45000
+chemstream-kafka  | 	group.coordinator.new.enable = false
+chemstream-kafka  | 	group.coordinator.threads = 1
+chemstream-kafka  | 	group.initial.rebalance.delay.ms = 3000
+chemstream-kafka  | 	group.max.session.timeout.ms = 1800000
+chemstream-kafka  | 	group.max.size = 2147483647
+chemstream-kafka  | 	group.min.session.timeout.ms = 6000
+chemstream-kafka  | 	initial.broker.registration.timeout.ms = 60000
+chemstream-kafka  | 	inter.broker.listener.name = INTERNAL
+chemstream-kafka  | 	inter.broker.protocol.version = 3.5-IV2
+chemstream-kafka  | 	kafka.metrics.polling.interval.secs = 10
+chemstream-kafka  | 	kafka.metrics.reporters = []
+chemstream-kafka  | 	leader.imbalance.check.interval.seconds = 300
+chemstream-kafka  | 	leader.imbalance.per.broker.percentage = 10
+chemstream-kafka  | 	listener.security.protocol.map = INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+chemstream-kafka  | 	listeners = INTERNAL://0.0.0.0:29092,EXTERNAL://0.0.0.0:9092
+chemstream-kafka  | 	log.cleaner.backoff.ms = 15000
+chemstream-kafka  | 	log.cleaner.dedupe.buffer.size = 134217728
+chemstream-kafka  | 	log.cleaner.delete.retention.ms = 86400000
+chemstream-kafka  | 	log.cleaner.enable = true
+chemstream-kafka  | 	log.cleaner.io.buffer.load.factor = 0.9
+chemstream-kafka  | 	log.cleaner.io.buffer.size = 524288
+chemstream-kafka  | 	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+chemstream-kafka  | 	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+chemstream-kafka  | 	log.cleaner.min.cleanable.ratio = 0.5
+chemstream-kafka  | 	log.cleaner.min.compaction.lag.ms = 0
+chemstream-kafka  | 	log.cleaner.threads = 1
+chemstream-kafka  | 	log.cleanup.policy = [delete]
+chemstream-kafka  | 	log.dir = /tmp/kafka-logs
+chemstream-kafka  | 	log.dirs = /var/lib/kafka/data
+chemstream-kafka  | 	log.flush.interval.messages = 9223372036854775807
+chemstream-kafka  | 	log.flush.interval.ms = null
+chemstream-kafka  | 	log.flush.offset.checkpoint.interval.ms = 60000
+chemstream-kafka  | 	log.flush.scheduler.interval.ms = 9223372036854775807
+chemstream-kafka  | 	log.flush.start.offset.checkpoint.interval.ms = 60000
+chemstream-kafka  | 	log.index.interval.bytes = 4096
+chemstream-kafka  | 	log.index.size.max.bytes = 10485760
+chemstream-kafka  | 	log.message.downconversion.enable = true
+chemstream-kafka  | 	log.message.format.version = 3.0-IV1
+chemstream-kafka  | 	log.message.timestamp.difference.max.ms = 9223372036854775807
+chemstream-kafka  | 	log.message.timestamp.type = CreateTime
+chemstream-kafka  | 	log.preallocate = false
+chemstream-kafka  | 	log.retention.bytes = -1
+chemstream-kafka  | 	log.retention.check.interval.ms = 300000
+chemstream-kafka  | 	log.retention.hours = 168
+chemstream-kafka  | 	log.retention.minutes = null
+chemstream-kafka  | 	log.retention.ms = null
+chemstream-kafka  | 	log.roll.hours = 168
+chemstream-kafka  | 	log.roll.jitter.hours = 0
+chemstream-kafka  | 	log.roll.jitter.ms = null
+chemstream-kafka  | 	log.roll.ms = null
+chemstream-kafka  | 	log.segment.bytes = 1073741824
+chemstream-kafka  | 	log.segment.delete.delay.ms = 60000
+chemstream-kafka  | 	max.connection.creation.rate = 2147483647
+chemstream-kafka  | 	max.connections = 2147483647
+chemstream-kafka  | 	max.connections.per.ip = 2147483647
+chemstream-kafka  | 	max.connections.per.ip.overrides = 
+chemstream-kafka  | 	max.incremental.fetch.session.cache.slots = 1000
+chemstream-kafka  | 	message.max.bytes = 1048588
+chemstream-kafka  | 	metadata.log.dir = null
+chemstream-kafka  | 	metadata.log.max.record.bytes.between.snapshots = 20971520
+chemstream-kafka  | 	metadata.log.max.snapshot.interval.ms = 3600000
+chemstream-kafka  | 	metadata.log.segment.bytes = 1073741824
+chemstream-kafka  | 	metadata.log.segment.min.bytes = 8388608
+chemstream-kafka  | 	metadata.log.segment.ms = 604800000
+chemstream-kafka  | 	metadata.max.idle.interval.ms = 500
+chemstream-kafka  | 	metadata.max.retention.bytes = 104857600
+chemstream-kafka  | 	metadata.max.retention.ms = 604800000
+chemstream-kafka  | 	metric.reporters = []
+chemstream-kafka  | 	metrics.num.samples = 2
+chemstream-kafka  | 	metrics.recording.level = INFO
+chemstream-kafka  | 	metrics.sample.window.ms = 30000
+chemstream-kafka  | 	min.insync.replicas = 1
+chemstream-kafka  | 	node.id = 1
+chemstream-kafka  | 	num.io.threads = 8
+chemstream-kafka  | 	num.network.threads = 3
+chemstream-kafka  | 	num.partitions = 1
+chemstream-kafka  | 	num.recovery.threads.per.data.dir = 1
+chemstream-kafka  | 	num.replica.alter.log.dirs.threads = null
+chemstream-kafka  | 	num.replica.fetchers = 1
+chemstream-kafka  | 	offset.metadata.max.bytes = 4096
+chemstream-kafka  | 	offsets.commit.required.acks = -1
+chemstream-kafka  | 	offsets.commit.timeout.ms = 5000
+chemstream-kafka  | 	offsets.load.buffer.size = 5242880
+chemstream-kafka  | 	offsets.retention.check.interval.ms = 600000
+chemstream-kafka  | 	offsets.retention.minutes = 10080
+chemstream-kafka  | 	offsets.topic.compression.codec = 0
+chemstream-kafka  | 	offsets.topic.num.partitions = 50
+chemstream-kafka  | 	offsets.topic.replication.factor = 1
+chemstream-kafka  | 	offsets.topic.segment.bytes = 104857600
+chemstream-kafka  | 	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+chemstream-kafka  | 	password.encoder.iterations = 4096
+chemstream-kafka  | 	password.encoder.key.length = 128
+chemstream-kafka  | 	password.encoder.keyfactory.algorithm = null
+chemstream-kafka  | 	password.encoder.old.secret = null
+chemstream-kafka  | 	password.encoder.secret = null
+chemstream-kafka  | 	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+chemstream-kafka  | 	process.roles = []
+chemstream-kafka  | 	producer.id.expiration.check.interval.ms = 600000
+chemstream-kafka  | 	producer.id.expiration.ms = 86400000
+chemstream-kafka  | 	producer.purgatory.purge.interval.requests = 1000
+chemstream-kafka  | 	queued.max.request.bytes = -1
+chemstream-kafka  | 	queued.max.requests = 500
+chemstream-kafka  | 	quota.window.num = 11
+chemstream-kafka  | 	quota.window.size.seconds = 1
+chemstream-kafka  | 	remote.log.index.file.cache.total.size.bytes = 1073741824
+chemstream-kafka  | 	remote.log.manager.task.interval.ms = 30000
+chemstream-kafka  | 	remote.log.manager.task.retry.backoff.max.ms = 30000
+chemstream-kafka  | 	remote.log.manager.task.retry.backoff.ms = 500
+chemstream-kafka  | 	remote.log.manager.task.retry.jitter = 0.2
+chemstream-kafka  | 	remote.log.manager.thread.pool.size = 10
+chemstream-kafka  | 	remote.log.metadata.manager.class.name = null
+chemstream-kafka  | 	remote.log.metadata.manager.class.path = null
+chemstream-kafka  | 	remote.log.metadata.manager.impl.prefix = null
+chemstream-kafka  | 	remote.log.metadata.manager.listener.name = null
+chemstream-kafka  | 	remote.log.reader.max.pending.tasks = 100
+chemstream-kafka  | 	remote.log.reader.threads = 10
+chemstream-kafka  | 	remote.log.storage.manager.class.name = null
+chemstream-kafka  | 	remote.log.storage.manager.class.path = null
+chemstream-kafka  | 	remote.log.storage.manager.impl.prefix = null
+chemstream-kafka  | 	remote.log.storage.system.enable = false
+chemstream-kafka  | 	replica.fetch.backoff.ms = 1000
+chemstream-kafka  | 	replica.fetch.max.bytes = 1048576
+chemstream-kafka  | 	replica.fetch.min.bytes = 1
+chemstream-kafka  | 	replica.fetch.response.max.bytes = 10485760
+chemstream-kafka  | 	replica.fetch.wait.max.ms = 500
+chemstream-kafka  | 	replica.high.watermark.checkpoint.interval.ms = 5000
+chemstream-kafka  | 	replica.lag.time.max.ms = 30000
+chemstream-kafka  | 	replica.selector.class = null
+chemstream-kafka  | 	replica.socket.receive.buffer.bytes = 65536
+chemstream-kafka  | 	replica.socket.timeout.ms = 30000
+chemstream-kafka  | 	replication.quota.window.num = 11
+chemstream-kafka  | 	replication.quota.window.size.seconds = 1
+chemstream-kafka  | 	request.timeout.ms = 30000
+chemstream-kafka  | 	reserved.broker.max.id = 1000
+chemstream-kafka  | 	sasl.client.callback.handler.class = null
+chemstream-kafka  | 	sasl.enabled.mechanisms = [GSSAPI]
+chemstream-kafka  | 	sasl.jaas.config = null
+chemstream-kafka  | 	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+chemstream-kafka  | 	sasl.kerberos.min.time.before.relogin = 60000
+chemstream-kafka  | 	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+chemstream-kafka  | 	sasl.kerberos.service.name = null
+chemstream-kafka  | 	sasl.kerberos.ticket.renew.jitter = 0.05
+chemstream-kafka  | 	sasl.kerberos.ticket.renew.window.factor = 0.8
+chemstream-kafka  | 	sasl.login.callback.handler.class = null
+chemstream-kafka  | 	sasl.login.class = null
+chemstream-kafka  | 	sasl.login.connect.timeout.ms = null
+chemstream-kafka  | 	sasl.login.read.timeout.ms = null
+chemstream-kafka  | 	sasl.login.refresh.buffer.seconds = 300
+chemstream-kafka  | 	sasl.login.refresh.min.period.seconds = 60
+chemstream-kafka  | 	sasl.login.refresh.window.factor = 0.8
+chemstream-kafka  | 	sasl.login.refresh.window.jitter = 0.05
+chemstream-kafka  | 	sasl.login.retry.backoff.max.ms = 10000
+chemstream-kafka  | 	sasl.login.retry.backoff.ms = 100
+chemstream-kafka  | 	sasl.mechanism.controller.protocol = GSSAPI
+chemstream-kafka  | 	sasl.mechanism.inter.broker.protocol = GSSAPI
+chemstream-kafka  | 	sasl.oauthbearer.clock.skew.seconds = 30
+chemstream-kafka  | 	sasl.oauthbearer.expected.audience = null
+chemstream-kafka  | 	sasl.oauthbearer.expected.issuer = null
+chemstream-kafka  | 	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+chemstream-kafka  | 	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+chemstream-kafka  | 	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+chemstream-kafka  | 	sasl.oauthbearer.jwks.endpoint.url = null
+chemstream-kafka  | 	sasl.oauthbearer.scope.claim.name = scope
+chemstream-kafka  | 	sasl.oauthbearer.sub.claim.name = sub
+chemstream-kafka  | 	sasl.oauthbearer.token.endpoint.url = null
+chemstream-kafka  | 	sasl.server.callback.handler.class = null
+chemstream-kafka  | 	sasl.server.max.receive.size = 524288
+chemstream-kafka  | 	security.inter.broker.protocol = PLAINTEXT
+chemstream-kafka  | 	security.providers = null
+chemstream-kafka  | 	server.max.startup.time.ms = 9223372036854775807
+chemstream-kafka  | 	socket.connection.setup.timeout.max.ms = 30000
+chemstream-kafka  | 	socket.connection.setup.timeout.ms = 10000
+chemstream-kafka  | 	socket.listen.backlog.size = 50
+chemstream-kafka  | 	socket.receive.buffer.bytes = 102400
+chemstream-kafka  | 	socket.request.max.bytes = 104857600
+chemstream-kafka  | 	socket.send.buffer.bytes = 102400
+chemstream-kafka  | 	ssl.cipher.suites = []
+chemstream-kafka  | 	ssl.client.auth = none
+chemstream-kafka  | 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+chemstream-kafka  | 	ssl.endpoint.identification.algorithm = https
+chemstream-kafka  | 	ssl.engine.factory.class = null
+chemstream-kafka  | 	ssl.key.password = null
+chemstream-kafka  | 	ssl.keymanager.algorithm = SunX509
+chemstream-kafka  | 	ssl.keystore.certificate.chain = null
+chemstream-kafka  | 	ssl.keystore.key = null
+chemstream-kafka  | 	ssl.keystore.location = null
+chemstream-kafka  | 	ssl.keystore.password = null
+chemstream-kafka  | 	ssl.keystore.type = JKS
+chemstream-kafka  | 	ssl.principal.mapping.rules = DEFAULT
+chemstream-kafka  | 	ssl.protocol = TLSv1.3
+chemstream-kafka  | 	ssl.provider = null
+chemstream-kafka  | 	ssl.secure.random.implementation = null
+chemstream-kafka  | 	ssl.trustmanager.algorithm = PKIX
+chemstream-kafka  | 	ssl.truststore.certificates = null
+chemstream-kafka  | 	ssl.truststore.location = null
+chemstream-kafka  | 	ssl.truststore.password = null
+chemstream-kafka  | 	ssl.truststore.type = JKS
+chemstream-kafka  | 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+chemstream-kafka  | 	transaction.max.timeout.ms = 900000
+chemstream-kafka  | 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+chemstream-kafka  | 	transaction.state.log.load.buffer.size = 5242880
+chemstream-kafka  | 	transaction.state.log.min.isr = 1
+chemstream-kafka  | 	transaction.state.log.num.partitions = 50
+chemstream-kafka  | 	transaction.state.log.replication.factor = 1
+chemstream-kafka  | 	transaction.state.log.segment.bytes = 104857600
+chemstream-kafka  | 	transactional.id.expiration.ms = 604800000
+chemstream-kafka  | 	unclean.leader.election.enable = false
+chemstream-kafka  | 	unstable.api.versions.enable = false
+chemstream-kafka  | 	zookeeper.clientCnxnSocket = null
+chemstream-kafka  | 	zookeeper.connect = zookeeper:2181
+chemstream-kafka  | 	zookeeper.connection.timeout.ms = null
+chemstream-kafka  | 	zookeeper.max.in.flight.requests = 10
+chemstream-kafka  | 	zookeeper.metadata.migration.enable = false
+chemstream-kafka  | 	zookeeper.session.timeout.ms = 18000
+chemstream-kafka  | 	zookeeper.set.acl = false
+chemstream-kafka  | 	zookeeper.ssl.cipher.suites = null
+chemstream-kafka  | 	zookeeper.ssl.client.enable = false
+chemstream-kafka  | 	zookeeper.ssl.crl.enable = false
+chemstream-kafka  | 	zookeeper.ssl.enabled.protocols = null
+chemstream-kafka  | 	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+chemstream-kafka  | 	zookeeper.ssl.keystore.location = null
+chemstream-kafka  | 	zookeeper.ssl.keystore.password = null
+chemstream-kafka  | 	zookeeper.ssl.keystore.type = null
+chemstream-kafka  | 	zookeeper.ssl.ocsp.enable = false
+chemstream-kafka  | 	zookeeper.ssl.protocol = TLSv1.2
+chemstream-kafka  | 	zookeeper.ssl.truststore.location = null
+chemstream-kafka  | 	zookeeper.ssl.truststore.password = null
+chemstream-kafka  | 	zookeeper.ssl.truststore.type = null
+chemstream-kafka  |  (kafka.server.KafkaConfig)
+chemstream-kafka  | [2026-04-27 17:21:42,946] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+chemstream-kafka  | [2026-04-27 17:21:42,947] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+chemstream-kafka  | [2026-04-27 17:21:42,949] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+chemstream-kafka  | [2026-04-27 17:21:42,953] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+chemstream-kafka  | [2026-04-27 17:21:43,010] INFO Loading logs from log dirs ArraySeq(/var/lib/kafka/data) (kafka.log.LogManager)
+chemstream-kafka  | [2026-04-27 17:21:43,017] INFO No logs found to be loaded in /var/lib/kafka/data (kafka.log.LogManager)
+chemstream-kafka  | [2026-04-27 17:21:43,033] INFO Loaded 0 logs in 23ms (kafka.log.LogManager)
+chemstream-kafka  | [2026-04-27 17:21:43,036] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+chemstream-kafka  | [2026-04-27 17:21:43,039] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+chemstream-kafka  | [2026-04-27 17:21:43,062] INFO Starting the log cleaner (kafka.log.LogCleaner)
+chemstream-kafka  | [2026-04-27 17:21:43,190] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner$CleanerThread)
+chemstream-kafka  | [2026-04-27 17:21:43,250] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+chemstream-kafka  | [2026-04-27 17:21:43,285] INFO Feature ZK node at path: /feature does not exist (kafka.server.FinalizedFeatureChangeListener)
+chemstream-kafka  | [2026-04-27 17:21:43,332] INFO [zk-broker-1-to-controller-forwarding-channel-manager]: Starting (kafka.server.BrokerToControllerRequestThread)
+chemstream-kafka  | [2026-04-27 17:21:43,883] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+chemstream-kafka  | [2026-04-27 17:21:43,933] INFO [SocketServer listenerType=ZK_BROKER, nodeId=1] Created data-plane acceptor and processors for endpoint : ListenerName(INTERNAL) (kafka.network.SocketServer)
+chemstream-kafka  | [2026-04-27 17:21:43,933] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+chemstream-kafka  | [2026-04-27 17:21:43,943] INFO [SocketServer listenerType=ZK_BROKER, nodeId=1] Created data-plane acceptor and processors for endpoint : ListenerName(EXTERNAL) (kafka.network.SocketServer)
+chemstream-kafka  | [2026-04-27 17:21:43,953] INFO [zk-broker-1-to-controller-alter-partition-channel-manager]: Starting (kafka.server.BrokerToControllerRequestThread)
+chemstream-kafka  | [2026-04-27 17:21:43,988] INFO [ExpirationReaper-1-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:43,993] INFO [ExpirationReaper-1-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:43,996] INFO [ExpirationReaper-1-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:43,998] INFO [ExpirationReaper-1-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:44,025] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+chemstream-kafka  | [2026-04-27 17:21:44,067] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.zk.KafkaZkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,113] INFO Stat of the created znode at /brokers/ids/1 is: 27,27,1777310504091,1777310504091,1,0,0,72057620090912769,245,0,27
+chemstream-kafka  |  (kafka.zk.KafkaZkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,115] INFO Registered broker 1 at path /brokers/ids/1 with addresses: INTERNAL://kafka:29092,EXTERNAL://localhost:9092, czxid (broker epoch): 27 (kafka.zk.KafkaZkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,243] INFO [ControllerEventThread controllerId=1] Starting (kafka.controller.ControllerEventManager$ControllerEventThread)
+chemstream-kafka  | [2026-04-27 17:21:44,257] INFO [ExpirationReaper-1-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:44,277] INFO [ExpirationReaper-1-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:44,283] INFO [ExpirationReaper-1-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:44,294] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,321] INFO [Controller id=1] 1 successfully elected as the controller. Epoch incremented to 1 and epoch zk version is now 1 (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,327] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+chemstream-kafka  | [2026-04-27 17:21:44,330] INFO [Controller id=1] Creating FeatureZNode at path: /feature with contents: FeatureZNode(2,Enabled,Map()) (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,338] INFO Feature ZK node created at path: /feature (kafka.server.FinalizedFeatureChangeListener)
+chemstream-kafka  | [2026-04-27 17:21:44,345] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+chemstream-kafka  | [2026-04-27 17:21:44,378] INFO [TransactionCoordinator id=1] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+chemstream-kafka  | [2026-04-27 17:21:44,392] INFO [TxnMarkerSenderThread-1]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+chemstream-kafka  | [2026-04-27 17:21:44,392] INFO [TransactionCoordinator id=1] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+chemstream-kafka  | [2026-04-27 17:21:44,401] INFO [MetadataCache brokerId=1] Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Map(), epoch=0). (kafka.server.metadata.ZkMetadataCache)
+chemstream-kafka  | [2026-04-27 17:21:44,401] INFO [Controller id=1] Registering handlers (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,415] INFO [Controller id=1] Deleting log dir event notifications (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,423] INFO [Controller id=1] Deleting isr change notifications (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,431] INFO [Controller id=1] Initializing controller context (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,467] INFO [Controller id=1] Initialized broker epochs cache: HashMap(1 -> 27) (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,482] DEBUG [Controller id=1] Register BrokerModifications handler for Set(1) (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,484] INFO [ExpirationReaper-1-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+chemstream-kafka  | [2026-04-27 17:21:44,497] DEBUG [Channel manager on controller 1]: Controller 1 trying to connect to broker 1 (kafka.controller.ControllerChannelManager)
+chemstream-kafka  | [2026-04-27 17:21:44,516] INFO [RequestSendThread controllerId=1] Starting (kafka.controller.RequestSendThread)
+chemstream-kafka  | [2026-04-27 17:21:44,520] INFO [Controller id=1] Currently active brokers in the cluster: Set(1) (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,520] INFO [Controller id=1] Currently shutting brokers in the cluster: HashSet() (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,521] INFO [Controller id=1] Current list of topics in the cluster: HashSet() (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,522] INFO [Controller id=1] Fetching topic deletions in progress (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,532] INFO [Controller id=1] List of topics to be deleted:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,532] INFO [Controller id=1] List of topics ineligible for deletion:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,533] INFO [Controller id=1] Initializing topic deletion manager (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,534] INFO [Topic Deletion Manager 1] Initializing manager with initial deletions: Set(), initial ineligible deletions: HashSet() (kafka.controller.TopicDeletionManager)
+chemstream-kafka  | [2026-04-27 17:21:44,536] INFO [Controller id=1] Sending update metadata request (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,543] INFO [Controller id=1 epoch=1] Sending UpdateMetadata request to brokers HashSet(1) for 0 partitions (state.change.logger)
+chemstream-kafka  | [2026-04-27 17:21:44,553] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+chemstream-kafka  | [2026-04-27 17:21:44,565] INFO [ReplicaStateMachine controllerId=1] Initializing replica state (kafka.controller.ZkReplicaStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,568] INFO [ReplicaStateMachine controllerId=1] Triggering online replica state changes (kafka.controller.ZkReplicaStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,579] INFO [ReplicaStateMachine controllerId=1] Triggering offline replica state changes (kafka.controller.ZkReplicaStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,579] DEBUG [ReplicaStateMachine controllerId=1] Started replica state machine with initial state -> HashMap() (kafka.controller.ZkReplicaStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,581] INFO [PartitionStateMachine controllerId=1] Initializing partition state (kafka.controller.ZkPartitionStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,582] INFO [PartitionStateMachine controllerId=1] Triggering online partition state changes (kafka.controller.ZkPartitionStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,590] DEBUG [PartitionStateMachine controllerId=1] Started partition state machine with initial state -> HashMap() (kafka.controller.ZkPartitionStateMachine)
+chemstream-kafka  | [2026-04-27 17:21:44,591] INFO [Controller id=1] Ready to serve as the new controller with epoch 1 (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,591] INFO [Controller id=1, targetBrokerId=1] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,598] WARN [Controller id=1, targetBrokerId=1] Connection to node 1 (kafka/172.19.0.3:29092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,603] WARN [RequestSendThread controllerId=1] Controller 1's connection to broker kafka:29092 (id: 1 rack: null) was unsuccessful (kafka.controller.RequestSendThread)
+chemstream-kafka  | java.io.IOException: Connection to kafka:29092 (id: 1 rack: null) failed.
+chemstream-kafka  | 	at org.apache.kafka.clients.NetworkClientUtils.awaitReady(NetworkClientUtils.java:70)
+chemstream-kafka  | 	at kafka.controller.RequestSendThread.brokerReady(ControllerChannelManager.scala:296)
+chemstream-kafka  | 	at kafka.controller.RequestSendThread.doWork(ControllerChannelManager.scala:249)
+chemstream-kafka  | 	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:127)
+chemstream-kafka  | [2026-04-27 17:21:44,610] INFO [Controller id=1, targetBrokerId=1] Client requested connection close from node 1 (org.apache.kafka.clients.NetworkClient)
+chemstream-kafka  | [2026-04-27 17:21:44,609] INFO [Controller id=1] Partitions undergoing preferred replica election:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,608] INFO [SocketServer listenerType=ZK_BROKER, nodeId=1] Enabling request processing. (kafka.network.SocketServer)
+chemstream-kafka  | [2026-04-27 17:21:44,612] INFO [Controller id=1] Partitions that completed preferred replica election:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,612] INFO [Controller id=1] Skipping preferred replica election for partitions due to topic deletion:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,613] INFO [Controller id=1] Resuming preferred replica election for partitions:  (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,616] INFO [Controller id=1] Starting replica leader election (PREFERRED) for partitions  triggered by ZkTriggered (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,618] INFO Awaiting socket connections on 0.0.0.0:29092. (kafka.network.DataPlaneAcceptor)
+chemstream-kafka  | [2026-04-27 17:21:44,628] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+chemstream-kafka  | [2026-04-27 17:21:44,660] INFO Kafka version: 7.5.0-ccs (org.apache.kafka.common.utils.AppInfoParser)
+chemstream-kafka  | [2026-04-27 17:21:44,660] INFO Kafka commitId: ff3c201baa948d97889dc26c99d7cdc23d038f2e (org.apache.kafka.common.utils.AppInfoParser)
+chemstream-kafka  | [2026-04-27 17:21:44,660] INFO Kafka startTimeMs: 1777310504651 (org.apache.kafka.common.utils.AppInfoParser)
+chemstream-kafka  | [2026-04-27 17:21:44,660] INFO [Controller id=1] Starting the controller scheduler (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:44,662] INFO [KafkaServer id=1] started (kafka.server.KafkaServer)
+chemstream-kafka  | [2026-04-27 17:21:44,717] INFO [RequestSendThread controllerId=1] Controller 1 connected to kafka:29092 (id: 1 rack: null) for sending state change requests (kafka.controller.RequestSendThread)
+chemstream-kafka  | [2026-04-27 17:21:44,835] TRACE [Controller id=1 epoch=1] Received response UpdateMetadataResponseData(errorCode=0) for request UPDATE_METADATA with correlation id 0 sent to broker kafka:29092 (id: 1 rack: null) (state.change.logger)
+chemstream-kafka  | [2026-04-27 17:21:44,870] INFO [zk-broker-1-to-controller-alter-partition-channel-manager]: Recorded new controller, from now on will use node kafka:29092 (id: 1 rack: null) (kafka.server.BrokerToControllerRequestThread)
+chemstream-kafka  | [2026-04-27 17:21:44,874] INFO [zk-broker-1-to-controller-forwarding-channel-manager]: Recorded new controller, from now on will use node kafka:29092 (id: 1 rack: null) (kafka.server.BrokerToControllerRequestThread)
+chemstream-kafka  | [2026-04-27 17:21:49,663] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:21:49,663] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:26:49,667] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:26:49,667] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:31:49,669] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:31:49,669] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:36:49,670] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:36:49,670] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:41:49,671] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:41:49,671] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:46:49,672] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:46:49,672] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:51:49,673] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:51:49,673] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:56:49,673] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 17:56:49,674] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:01:49,674] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:01:49,675] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:06:49,675] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:06:49,676] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:11:49,676] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:11:49,677] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:16:49,677] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:16:49,677] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:21:49,680] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:21:49,681] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:26:49,681] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:26:49,682] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:31:49,683] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:31:49,683] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:36:49,683] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:36:49,684] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:41:49,684] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:41:49,684] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:46:49,686] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:46:49,686] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:51:49,687] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:51:49,687] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:56:49,688] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 18:56:49,688] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:01:49,689] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:01:49,689] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:06:49,690] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:06:49,690] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:11:49,691] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+chemstream-kafka  | [2026-04-27 19:11:49,691] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)

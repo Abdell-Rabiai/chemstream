@@ -41,7 +41,31 @@ services:
       KAFKA_LOG_RETENTION_HOURS: 168
     networks:
       - chemstream-net
+  # ---------- TimescaleDB: time-series storage ----------
+  timescaledb:
+    image: timescale/timescaledb:2.14.2-pg15
+    container_name: chemstream-timescaledb
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - chemstream-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
 networks:
   chemstream-net:
     driver: bridge
+
+volumes:
+  timescale_data:
